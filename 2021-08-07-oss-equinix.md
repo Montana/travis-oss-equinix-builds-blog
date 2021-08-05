@@ -52,4 +52,3 @@ Looking for something more _bespoke for your builds?_ Try out [Travis CI Enterpr
 [Build your open source projects on IBM Power and IBM Z CPU architecture - Nov 2019](https://blog.travis-ci.com/2019-11-12-multi-cpu-architecture-ibm-power-ibm-z).
 
 [Announcing General Availability of Graviton2 CPU Support! - Nov 2020](https://blog.travis-ci.com/2020-09-11-arm-on-aws).
-0
