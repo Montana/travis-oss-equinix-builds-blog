@@ -36,7 +36,8 @@ The infrastructure upgrade allows Armv8 builds in LXD containers to spin up much
 
 Below is a graph of a study conducted by Montana Mendy, where he took the same exact repository which is [here](https://github.com/Montana/travis-staging-arm64). It's a breadth-first search application Montana wrote in Python who has made it open source solely for this post, and in this repository you can see the `.travis.yml`, the `.travis.yml` did not differ for builds, in other words - nothing was changed when running the builds with Equinix Metal and when the builds were ran on the previous architecture. 
 
-<img width="982" alt="buildtimes2" src="https://user-images.githubusercontent.com/20936398/128538388-b7c82cdb-9be1-46a0-bd98-5876372ba433.png">
+<img width="840" alt="equinixbuild" src="https://user-images.githubusercontent.com/20936398/128569130-f22f9566-b39b-48ee-97ae-56233eeeb609.png">
+
 
 As you can see with Equinix Metal it's twice as fast, now remember this is building a small grade project. Imagine the time you'll save when the proejct is a tad bigger. I've attached more references as it relates to build times:
 
