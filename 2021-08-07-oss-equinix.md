@@ -55,7 +55,7 @@ To state once more, I've left the [repository](https://github.com/Montana/travis
 
 ## Conclusion
 
-Right now it actually doesn’t matter which one of [Arm infrastructures available at Travis CI](https://docs.travis-ci.com/user/multi-cpu-architectures/#multi-cpu-availaibility) you use: all are powered by modern, performant CPUs. Enjoy faster build times over Armv8 as well, we are sorry to make your coffee and tea breaks shorter!
+Right now it actually doesn’t matter which one of [Arm infrastructures available at Travis CI](https://docs.travis-ci.com/user/multi-cpu-architectures/#multi-cpu-availaibility) you use, all are powered by modern, performant CPUs. Enjoy faster build times over Armv8 as well, we are sorry to make your coffee and tea breaks shorter!
 
 ## Where to find out more
 
