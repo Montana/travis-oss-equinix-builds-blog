@@ -50,7 +50,7 @@ As you can see with Equinix Metal it's twice as fast, now remember this is build
 
 You can clearly see a basically 50% increase in speed when Travis uses the brand new Arm Neoverse N1 based Ampere Altra `arm64` servers.
 
-To state once more, I've left [repository](https://github.com/Montana/travis-staging-arm64) link on GitHub that I used to measure these times, so you can see exactly my `.travis.yml` configuration and other things that make sense to you. 
+To state once more, I've left the [repository](https://github.com/Montana/travis-staging-arm64) link on GitHub that I used to measure these times, so you can see exactly my `.travis.yml` configuration and other things that make sense to you. 
 
 ## Conclusion
 
