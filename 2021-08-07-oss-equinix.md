@@ -1,6 +1,6 @@
 ---
 title: "Introducing: Armv8 Equinix-Metal, super fast builds for OSS"
-created_at: Tue Aug 03 2021 15:00:00 EDT
+created_at: Fri Aug 06 2021 15:00:00 EDT
 author: Montana Mendy
 layout: post
 permalink: 2021-08-07-oss-equinix
