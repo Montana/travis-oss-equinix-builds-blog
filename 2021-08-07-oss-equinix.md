@@ -48,6 +48,8 @@ As you can see with Equinix Metal it's twice as fast, now remember this is build
 
 <img width="1431" alt="without" src="https://user-images.githubusercontent.com/20936398/128438586-11b04bd5-dbf1-41a6-8323-a2be628412c5.png">
 
+You can clearly see a basically 50% increase in speed when Travis uses the brand new Arm Neoverse N1 based Ampere Altra `arm64` servers.
+
 To state once more, I've left [repository](https://github.com/Montana/travis-staging-arm64) link on GitHub that I used to measure these times, so you can see exactly my `.travis.yml` configuration and other things that make sense to you. 
 
 ## Conclusion
@@ -56,7 +58,7 @@ Right now it actually doesn’t matter which one of [Arm infrastructures availab
 
 ## Where to find out more
 
-Make sure you watch the Travis CI content at the Arm DevSummit October 19-21 where Travis CI will have a presence and Montana will be showing just how fast things really have gotten with Arm when building things.
+Make sure you watch the Travis CI content at the [Arm DevSummit 2021](https://devsummit.arm.com/en?utm_source=google&utm_medium=cpc&utm_campaign=2021_armdevsummit_mk17_1000heads_na_na_na&utm_term=phase2&utm_content=campaign-page-textad-536231211557&gclid=Cj0KCQjwu7OIBhCsARIsALxCUaNLHbHikjh9r3XwCtYLyhOofx0PGXemynvsK5VOnVq86_UwAKy8j_oaApaMEALw_wcB#registerEarly&utm_term=dev%20summit), October 19-21 where Travis CI will have a presence and Montana Mendy will be showing just how fast things really have gotten with Arm when building things.
 
 You can find out more about the new Arm on AWS Graviton2 integration by reading about the [Travis CI build environment](https://docs.travis-ci.com/user/reference/overview/) and building on [multi-CPU architectures](https://docs.travis-ci.com/user/multi-cpu-architectures). Be sure to leave your feedback and join the discussion over at the [community forum](https://travis-ci.community/c/integrations/aws-graviton2/102). If you have any questions do not hesitate to post on the forums or contact [montana@travis-ci.org](mailto:montana@travis-ci.org).
 
