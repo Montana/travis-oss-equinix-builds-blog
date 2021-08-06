@@ -32,6 +32,24 @@ That will now tell Travis to use the super fast new generation of `arm64` CPU ba
 
 The infrastructure upgrade allows Armv8 builds in LXD containers to spin up much faster. The performance improvement proved impressive, as Montana Mendy found out after taking the new environment for a test drive.
 
+## Build study conducted by Montana Mendy
+
+Below is a graph of a study conducted by Montana Mendy, where he took the same exact repository which is [here](https://github.com/Montana/travis-staging-arm64). It's a breadth-first search application Montana wrote in Python who has made it open source solely for this post, and in this repository you can see the `.travis.yml`, the `.travis.yml` did not differ for builds, in other words - nothing was changed when running the builds with Equinix-Metal and when the builds were ran on the previous architecture. 
+
+<img width="1048" alt="buildtimes" src="https://user-images.githubusercontent.com/20936398/128437785-02d77fb5-835d-408d-937e-4873bddcce25.png">
+
+As you can see with Equinix-Metal it's twice as fast, now remember this is building a small grade project. Imagine the time you'll save when the proejct is a tad bigger. I've attached more references as it relates to build times:
+
+**Build times when using Equinix-Metal:**
+
+<img width="1458" alt="equinix" src="https://user-images.githubusercontent.com/20936398/128438474-a41b0498-c90e-4828-a712-e3bd27ca6b06.png">
+
+**Build times when the end user is not using Equinix-Metal:**
+
+<img width="1431" alt="without" src="https://user-images.githubusercontent.com/20936398/128438586-11b04bd5-dbf1-41a6-8323-a2be628412c5.png">
+
+To state once more, I've left [repository](https://github.com/Montana/travis-staging-arm64) link on GitHub that I used to measure these times, so you can see exactly my `.travis.yml` configuration and other things that make sense to you. 
+
 ## Conclusion
 
 Right now it actually doesn’t matter which one of [Arm infrastructures available at Travis CI](https://docs.travis-ci.com/user/multi-cpu-architectures/#multi-cpu-availaibility) you use: all are powered by modern, performant CPUs. Enjoy faster build times over Armv8 as well, we are sorry to make your coffee and tea breaks shorter!
@@ -43,7 +61,6 @@ You can find out more about the new Arm on AWS Graviton2 integration by reading 
 Not a Travis CI user yet? [Sign up for a free trial](https://travis-ci.com/signup?utm_source=tciblog&utm_medium=blogpost&utm_campaign=blog_cta)!
 
 Looking for something more _bespoke for your builds?_ Try out [Travis CI Enterprise](https://travis-ci.com/plans?anchor=enterprise-section&utm_source=tciblog&utm_medium=blogpost&utm_campaign=blog_cta).
-
 
 ## Ref blog posts:
 
